@@ -1,0 +1,14 @@
+# Python
+pipeline/__pycache__/
+pipeline/**/__pycache__/
+pipeline/.venv/
+*.pyc
+
+# Env
+.env
+.env.local
+
+# Raw clips — never committed, never retained past feature extraction
+*.mp4
+*.mov
+!mobile/**/*.mp4
